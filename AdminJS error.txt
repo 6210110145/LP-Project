@@ -1,0 +1,13 @@
+'contain 'type':'module' in package.json'
+ReferenceError: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\nestjs postgreSQL\api\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/nestjs%20postgreSQL/api/dist/src/main.js:38:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+
+
+'change .mts'
+Error: Cannot find module 'D:\nestjs postgreSQL\api\dist\main'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47

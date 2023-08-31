@@ -1,0 +1,4 @@
+1.  npm install bootstrap
+
+2.  import "bootstrap/dist/css/bootstrap.min.css"; 
+    in index.js
